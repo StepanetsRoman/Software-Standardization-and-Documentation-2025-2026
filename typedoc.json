@@ -1,0 +1,9 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Trivia Quiz — документація hooks, stores, utils",
+  "entryPoints": ["src/hooks", "src/stores", "src/utils"],
+  "entryPointStrategy": "expand",
+  "exclude": ["**/*.stories.*", "**/test/**", "**/__tests__/**"],
+  "out": "docs/api",
+  "readme": "./docs/TYPEDOC_README.md"
+}

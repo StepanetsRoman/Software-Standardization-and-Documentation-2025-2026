@@ -1,0 +1,87 @@
+{
+  "name": "trivia-quiz-lab5",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Веб-додаток Trivia Quiz: вікторина з псевдонімом користувача, тематиками (історія, наука, фільми), локальним збереженням результатів у браузері.",
+  "license": "MIT",
+  "author": "Степанець Роман Степанович <vtk241_srs@student.ztu.edu.ua>",
+  "homepage": "https://github.com/StepanetsRoman/Software-Standardization-and-Documentation-2025-2026",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StepanetsRoman/Software-Standardization-and-Documentation-2025-2026"
+  },
+  "bugs": {
+    "url": "https://github.com/StepanetsRoman/Software-Standardization-and-Documentation-2025-2026",
+    "email": "vtk241_srs@student.ztu.edu.ua"
+  },
+  "keywords": [
+    "trivia",
+    "quiz",
+    "вікторина",
+    "react",
+    "vite",
+    "zustand",
+    "react-router",
+    "gdpr",
+    "cookies",
+    "frontend",
+    "ztu",
+    "education"
+  ],
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "docs": "typedoc --options typedoc.json",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "cross-env CI=true STORYBOOK_DISABLE_TELEMETRY=1 storybook build -o storybook-static",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "license:report": "node scripts/write-license-report.mjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^6.28.0",
+    "remark-gfm": "^4.0.1",
+    "styled-components": "^6.1.13",
+    "yup": "^1.4.0",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@storybook/addon-essentials": "^8.6.18",
+    "@storybook/addon-links": "^8.6.18",
+    "@storybook/blocks": "^8.6.18",
+    "@storybook/react-vite": "^8.6.18",
+    "@storybook/test": "^8.6.18",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^4.1.0",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.6.0",
+    "jsdom": "^29.1.1",
+    "license-checker-rseidelsohn": "^4.4.2",
+    "prettier": "^3.8.3",
+    "storybook": "^8.6.18",
+    "typedoc": "^0.28.19",
+    "typescript": "^6.0.3",
+    "vite": "^5.0.0",
+    "vitest": "^4.1.5"
+  }
+}
