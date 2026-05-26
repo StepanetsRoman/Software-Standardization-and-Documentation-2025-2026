@@ -1,0 +1,1 @@
+import{j as a}from"./jsx-runtime-DFAAy_2V.js";import"./index-Bc2G9s8g.js";const t={parameters:{layout:"padded",backgrounds:{default:"app-dark",values:[{name:"app-dark",value:"#020617"}]},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}},decorators:[e=>a.jsx("div",{style:{minHeight:"120px"},children:a.jsx(e,{})})]};export{t as default};
